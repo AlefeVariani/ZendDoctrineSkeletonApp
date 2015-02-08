@@ -10,7 +10,19 @@
  * control, so do not include passwords or other sensitive information in this
  * file.
  */
-
-return array(
-    // ...
-);
+return [
+    'doctrine' => [
+        'connection' => [
+            'orm_default' => [
+                'driverClass' => 'Doctrine\DBAL\Driver\PDOPgSql\Driver',
+                'params' => [
+                    'host' => 'localhost',
+                    'port' => '5432',
+                    'user' => 'postgres',
+                    'password' => 'root',
+                    'dbname' => 'banco',
+                ]
+            ]
+        ]
+    ]
+];
