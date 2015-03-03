@@ -36,26 +36,6 @@ class Pessoa
         $this->dataCadastro = new \DateTime();
     }
 
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    public function getNome()
-    {
-        return $this->nome;
-    }
-
-    public function getDescricao()
-    {
-        return $this->descricao;
-    }
-
-    public function getDataCadastro()
-    {
-        return $this->data;
-    }
-
     public function setId($id)
     {
         $this->id = $id;
@@ -69,10 +49,5 @@ class Pessoa
     public function setDescricao($descricao)
     {
         $this->descricao = $descricao;
-    }
-
-    public function setDataCadastro($data)
-    {
-        $this->data = $data;
     }
 }
