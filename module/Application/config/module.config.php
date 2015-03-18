@@ -16,8 +16,8 @@ return [
                     'defaults' => [
                         'controller' => 'Application\Controller\Index',
                         'action' => 'index'
-                    ],
-                ],
+                    ]
+                ]
             ],
             // The following is a route to simplify getting started creating
             // new controllers and actions without needing to create a new
@@ -31,7 +31,7 @@ return [
                         '__NAMESPACE__' => 'Application\Controller',
                         'controller' => 'Index',
                         'action' => 'index'
-                    ],
+                    ]
                 ],
                 'may_terminate' => true,
                 'child_routes' => [

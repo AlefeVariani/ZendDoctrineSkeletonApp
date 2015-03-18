@@ -5,5 +5,5 @@ return [
     'port' => '5432',
     'user' => 'postgres',
     'password' => 'root',
-    'dbname' => 'banco',
+    'dbname' => 'banco'
 ];
