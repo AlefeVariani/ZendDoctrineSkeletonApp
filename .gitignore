@@ -9,4 +9,3 @@ nbproject
 composer.lock
 vendor/bin
 vendor
-composer.phar
